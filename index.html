@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            Imóveis Liva
+        </h1>
+    </div>
+    <div>
+        <form action="">
+            <div>
+                <label for="kind">Tipo do Imóvel</label>
+                <select name="properties" id="properties">
+                    <option value="apartment">Apartamento</option>
+                    <option value="house">Casa</option>
+                    <option value="kitnet">Kitnet</option>
+                    <option value="studio">Studio</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address">
+            </div><br>
+            <div>
+                <label for="rented">Está alugado?</label>
+                <input type="radio" id="is-rented" name="rented" value="Está alugado">
+                <label for="is-rented">Sim</label>
+                <input type="radio" id="not-rented" name="rented" value="Não está alugado">
+                <label for="not-rented">Não</label>
+            </div><br>
+            <button type="submit">Criar</button>
+        </form>
+    </div><br>
+    <hr>
+    <div>
+        <h1>Lista de imóveis</h1>
+        <hr>
+        <div>
+            <ol></ol>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./place.js"></script>
+</body>
+
+</html>
